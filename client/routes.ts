@@ -4,10 +4,11 @@ import { Type } from '@angular/core';
 
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { MapComponent } from './components/map/map.component';
 
 const routes: RouterConfig = [
     { path: '', component: <Type>HomeComponent },
-    { path: 'contact', component: <Type>ContactComponent }
+    { path: 'map', component: <Type>MapComponent }
 ];
 
 export const APP_ROUTER_PROVIDERS = [
